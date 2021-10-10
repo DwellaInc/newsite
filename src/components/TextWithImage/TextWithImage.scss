@@ -1,0 +1,44 @@
+@import '../../main.scss';
+
+.TWI {
+  width: 100vw;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include tablet {
+    height: fit-content;
+    padding: 5rem 0;
+  }
+
+  @include mobile {
+    padding: 3rem 0;
+  }
+
+  &-grey {
+    background-color: $OffWhite;
+  }
+
+  &-image {
+    width: 20rem;
+    align-self: center;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &-text {
+    max-width: 400px;
+    align-self: center;
+  }
+
+  &-container {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 70vw;
+    max-width: 800px;
+  }
+}

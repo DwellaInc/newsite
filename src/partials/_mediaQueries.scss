@@ -1,0 +1,33 @@
+$breakpointSmall: 576px;
+$breakPointMedium: 768px;
+$breakPointLarge: 992px;
+$breakPointXLarge: 1200px;
+
+// Media Queries
+@mixin desktop {
+  @media screen and (max-width: $breakPointLarge) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: $breakPointMedium) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: $breakpointSmall) {
+    @content;
+  }
+}
+
+@mixin desktopXLPaddingLR {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+@mixin desktopPaddingLR {
+  padding-left: 3vw;
+  padding-right: 3vw;
+}

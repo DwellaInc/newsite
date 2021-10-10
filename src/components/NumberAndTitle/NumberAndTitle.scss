@@ -1,0 +1,29 @@
+@import '../../main.scss';
+
+.NAT {
+  &-container {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 1rem;
+  }
+
+  &-circle {
+    background-color: $Primary;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.25rem;
+  }
+
+  &-number {
+    color: white;
+  }
+
+  &-title {
+    color: $Primary;
+    margin-left: 1rem;
+  }
+}

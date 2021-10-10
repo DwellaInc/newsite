@@ -1,0 +1,64 @@
+@import '../../../../main.scss';
+
+.hero {
+  padding: 8rem 0 13rem;
+  @include desktopXLPaddingLR;
+  background-image: url('../../../../assets/images/hero-bg.svg');
+  background-color: #dee8e9;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  flex-direction: column;
+
+  @include mobile {
+    padding: 5rem 1rem 4rem;
+    background: #dee8e9;
+  }
+
+  &-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    @include mobile {
+      padding: 0 1rem;
+    }
+  }
+
+  &-input-container {
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    max-width: 400px;
+    min-width: 200px;
+  }
+
+  &-title {
+    @include mobile {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &-image {
+    display: none;
+
+    @include mobile {
+      display: initial;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  &-button {
+    margin-top: 1rem;
+  }
+}

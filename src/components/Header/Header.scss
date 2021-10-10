@@ -1,0 +1,72 @@
+@import '../../main.scss';
+
+.header {
+  &-container {
+    @include desktopXLPaddingLR;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    @include desktop {
+      @include desktopPaddingLR;
+    }
+  }
+
+  &-hamburger {
+    display: none;
+
+    @include tablet {
+      display: initial;
+      margin-right: 1rem;
+    }
+  }
+
+  &-dropdown {
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10rem;
+    z-index: 1;
+  }
+
+  &-logo {
+    cursor: pointer;
+  }
+}
+
+.button {
+  &-container {
+    display: flex;
+    align-items: center;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &-wrap {
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+
+    @include tablet {
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,30 @@
+@import '../../../../main.scss';
+
+.how-we-do-it {
+  padding: 8rem 7rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+
+  @include mobile {
+    padding: 6rem 1rem 2rem;
+  }
+}
+
+.HWDI {
+  &-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  &-title {
+    margin-bottom: 4rem;
+
+    @include mobile {
+      margin-bottom: 1.5rem;
+    }
+  }
+}

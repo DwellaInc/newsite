@@ -1,0 +1,21 @@
+@import '../../../../main.scss';
+
+.walk-through {
+  padding-top: 10rem;
+  position: relative;
+
+  &-title {
+    width: 100%;
+    padding: 0 20vw;
+    position: absolute;
+    top: 12rem;
+
+    @include tablet {
+      top: 8rem;
+    }
+
+    @include mobile {
+      top: 6rem;
+    }
+  }
+}

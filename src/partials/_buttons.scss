@@ -1,0 +1,55 @@
+@import './mediaQueries';
+
+@mixin button {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 700;
+  color: white;
+  border-radius: 25px;
+  padding: 7px 40px;
+  border: none;
+  font-family: 'Poppins';
+  cursor: pointer;
+
+  @include tablet {
+    font-size: 14px;
+  }
+}
+
+.btn {
+  &-primary {
+    @include button;
+    background: $Primary;
+  }
+
+  &-secondary {
+    @include button;
+    border: 2px solid $Primary;
+    background: white;
+    color: $Primary;
+    font-weight: 400;
+  }
+
+  &-tertiary {
+    @include button;
+    background: $Complementary;
+  }
+
+  &-gradient {
+    @include button;
+    background: radial-gradient(
+      100% 1396.4% at 100% 50%,
+      $GradientBlue 0%,
+      $GradientGreen 100%
+    );
+  }
+
+  &-nav {
+    @include button;
+    font-weight: 400;
+    color: $Black;
+    background-color: transparent;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+}

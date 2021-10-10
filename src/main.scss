@@ -1,0 +1,23 @@
+@import './partials/typography', 'partials/mediaQueries', 'partials/colors',
+  './partials/buttons', './partials/inputs';
+
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 24px;
+  color: $Black;
+  scroll-behavior: smooth;
+}
+
+.logo {
+  height: 4rem;
+
+  @include mobile {
+    height: 3rem;
+  }
+}

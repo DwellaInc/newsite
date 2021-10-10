@@ -1,0 +1,25 @@
+@import '../../main.scss';
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+
+  &-title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.footer-link {
+  font-size: 14px;
+  color: $Grey;
+  margin: 0;
+  text-decoration: none;
+}

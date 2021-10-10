@@ -1,0 +1,30 @@
+@import '../../main.scss';
+
+.employee-card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  text-align: center;
+
+  @include tablet {
+    width: 200px;
+  }
+
+  @include mobile {
+    width: 100vw;
+  }
+
+  &-image {
+    margin-bottom: 1rem;
+    height: 8rem;
+  }
+
+  &-secondary {
+    @include mobile {
+      width: 150px;
+    }
+  }
+}
