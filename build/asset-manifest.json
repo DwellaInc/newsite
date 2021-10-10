@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/newsite/static/css/main.a84fa02d.chunk.css",
+    "main.js": "/newsite/static/js/main.b54245cd.chunk.js",
+    "main.js.map": "/newsite/static/js/main.b54245cd.chunk.js.map",
+    "runtime-main.js": "/newsite/static/js/runtime-main.fc1efcc7.js",
+    "runtime-main.js.map": "/newsite/static/js/runtime-main.fc1efcc7.js.map",
+    "static/js/2.7e3912c1.chunk.js": "/newsite/static/js/2.7e3912c1.chunk.js",
+    "static/js/2.7e3912c1.chunk.js.map": "/newsite/static/js/2.7e3912c1.chunk.js.map",
+    "index.html": "/newsite/index.html",
+    "static/css/main.a84fa02d.chunk.css.map": "/newsite/static/css/main.a84fa02d.chunk.css.map",
+    "static/js/2.7e3912c1.chunk.js.LICENSE.txt": "/newsite/static/js/2.7e3912c1.chunk.js.LICENSE.txt",
+    "static/media/About-UsArtboard-1.a4692833.png": "/newsite/static/media/About-UsArtboard-1.a4692833.png",
+    "static/media/About-UsArtboard-2.1cdfa1f9.png": "/newsite/static/media/About-UsArtboard-2.1cdfa1f9.png",
+    "static/media/About-UsArtboard-3.5fc4462d.png": "/newsite/static/media/About-UsArtboard-3.5fc4462d.png",
+    "static/media/About-UsArtboard-4.fa19fc50.png": "/newsite/static/media/About-UsArtboard-4.fa19fc50.png",
+    "static/media/About-UsArtboard-5.cd9e32c5.png": "/newsite/static/media/About-UsArtboard-5.cd9e32c5.png",
+    "static/media/About-UsArtboard-6.d46a1c02.png": "/newsite/static/media/About-UsArtboard-6.d46a1c02.png",
+    "static/media/About-UsArtboard-7.a143b81b.png": "/newsite/static/media/About-UsArtboard-7.a143b81b.png",
+    "static/media/GetInTouch_House.f77e8bf8.png": "/newsite/static/media/GetInTouch_House.f77e8bf8.png",
+    "static/media/Intro_HouseUp.26f039fd.png": "/newsite/static/media/Intro_HouseUp.26f039fd.png",
+    "static/media/Invest.6bf0f5d2.svg": "/newsite/static/media/Invest.6bf0f5d2.svg",
+    "static/media/FooterLinks.scss": "/newsite/static/media/Poppins-Regular.8081832f.ttf",
+    "static/media/Register.69933237.svg": "/newsite/static/media/Register.69933237.svg",
+    "static/media/Track.8ba8ebf6.svg": "/newsite/static/media/Track.8ba8ebf6.svg",
+    "static/media/close-icon.aac73cf0.svg": "/newsite/static/media/close-icon.aac73cf0.svg",
+    "static/media/down-button.d9b37ddf.svg": "/newsite/static/media/down-button.d9b37ddf.svg",
+    "static/media/dwella-logo.7bfecf9c.svg": "/newsite/static/media/dwella-logo.7bfecf9c.svg",
+    "static/media/hamburger.04ce11bc.svg": "/newsite/static/media/hamburger.04ce11bc.svg",
+    "static/media/Hero.scss": "/newsite/static/media/hero-bg.fce85c56.svg",
+    "static/media/instagram.b976bace.svg": "/newsite/static/media/instagram.b976bace.svg",
+    "static/media/linkedin.d0bf106b.svg": "/newsite/static/media/linkedin.d0bf106b.svg",
+    "static/media/twitter.b2efda9e.svg": "/newsite/static/media/twitter.b2efda9e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc1efcc7.js",
+    "static/js/2.7e3912c1.chunk.js",
+    "static/css/main.a84fa02d.chunk.css",
+    "static/js/main.b54245cd.chunk.js"
+  ]
+}
